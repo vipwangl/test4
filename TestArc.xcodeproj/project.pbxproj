@@ -21,6 +21,7 @@
 		04ABB8CB18B58DF400172841 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABB8AD18B58DF400172841 /* UIKit.framework */; };
 		04ABB8D318B58DF400172841 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04ABB8D118B58DF400172841 /* InfoPlist.strings */; };
 		04ABB8D518B58DF400172841 /* TestArcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABB8D418B58DF400172841 /* TestArcTests.m */; };
+		04ABB8E018B58E3D00172841 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABB8DF18B58E3D00172841 /* Topic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		04ABB8D018B58DF400172841 /* TestArcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestArcTests-Info.plist"; sourceTree = "<group>"; };
 		04ABB8D218B58DF400172841 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04ABB8D418B58DF400172841 /* TestArcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestArcTests.m; sourceTree = "<group>"; };
+		04ABB8DE18B58E3D00172841 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		04ABB8DF18B58E3D00172841 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				04ABB8BF18B58DF400172841 /* ViewController.m */,
 				04ABB8C118B58DF400172841 /* Images.xcassets */,
 				04ABB8B018B58DF400172841 /* Supporting Files */,
+				04ABB8DE18B58E3D00172841 /* Topic.h */,
+				04ABB8DF18B58E3D00172841 /* Topic.m */,
 			);
 			path = TestArc;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				04ABB8C018B58DF400172841 /* ViewController.m in Sources */,
 				04ABB8BA18B58DF400172841 /* AppDelegate.m in Sources */,
+				04ABB8E018B58E3D00172841 /* Topic.m in Sources */,
 				04ABB8B618B58DF400172841 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
